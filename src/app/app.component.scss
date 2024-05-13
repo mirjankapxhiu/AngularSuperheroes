@@ -1,0 +1,50 @@
+.example-spacer {
+  flex: 1 1 auto; /* Espaciador flexible que ocupa todo el espacio disponible */
+}
+
+.main-body {
+  padding: 20px; /* Añade un relleno de 20px alrededor del cuerpo principal */
+}
+
+.mat-form-field {
+  margin-right: 20px; /* Añade un margen derecho de 20px a los campos de formulario */
+}
+
+.mat-elevation-z8 {
+  margin-top: 20px; /* Añade un margen superior de 20px al elevar la sombra */
+}
+
+.mat-row, .mat-header-row {
+  display: flex; /* Hace que las filas de la tabla sean flexibles */
+  justify-content: space-between; /* Distribuye uniformemente los elementos en el espacio disponible */
+}
+
+.mat-cell, .mat-header-cell {
+  flex: 1; /* Hace que las celdas de la tabla ocupen todo el espacio disponible */
+  overflow: hidden; /* Oculta el contenido que sobresale del contenedor */
+  text-overflow: ellipsis; /* Muestra puntos suspensivos (...) cuando el texto es demasiado largo para caber */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.mat-header-cell {
+  font-weight: bold; /* Aplica negrita al texto en las celdas de encabezado */
+}
+
+.mat-paginator-navigation-next, .mat-paginator-navigation-previous {
+  display: inline-block; /* Muestra los elementos de navegación del paginador como bloques en línea */
+  width: 0; /* Establece el ancho de los elementos de navegación en 0 */
+  height: 0; /* Establece la altura de los elementos de navegación en 0 */
+  border-style: solid; /* Establece el estilo del borde como sólido */
+  border-width: 5px 5px 0 5px; /* Establece el grosor del borde superior y laterales */
+  border-color: #333 transparent transparent transparent; /* Establece el color del borde */
+  margin-top: 3px; /* Añade un pequeño margen superior */
+  margin-right: 10px; /* Añade un margen derecho de 10px */
+}
+
+.mat-paginator-navigation-previous {
+  transform: rotate(-90deg); /* Rota el botón de navegación anterior -90 grados */
+}
+
+.mat-paginator-navigation-next {
+  transform: rotate(90deg); /* Rota el botón de navegación siguiente 90 grados */
+}

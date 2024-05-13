@@ -1,0 +1,253 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "superheroe": [
+    {
+      "id": "3d0c",
+      "nombre_real": "Bruce Wayne",
+      "nombre_heroe": "Batman",
+      "ano_primera_aparicion": 1939,
+      "gender": "Masculino",
+      "superpoderes": "Fuerza sobrehumana"
+    },
+    {
+      "id": "164f",
+      "nombre_real": "Peter Parker",
+      "nombre_heroe": "Spider-Man",
+      "ano_primera_aparicion": 1939,
+      "gender": "Masculino",
+      "superpoderes": "Invulnerabilidad"
+    },
+    {
+      "id": "857f",
+      "nombre_real": "Diana Prince",
+      "nombre_heroe": "Wonder Woman",
+      "ano_primera_aparicion": 1941,
+      "gender": "Femenino",
+      "superpoderes": "Regeneración rápida"
+    },
+    {
+      "id": "542f",
+      "nombre_real": "Tony Stark",
+      "nombre_heroe": "Iron Man",
+      "ano_primera_aparicion": 1963,
+      "gender": "Masculino",
+      "superpoderes": "Super velocidad"
+    },
+    {
+      "id": "70fb",
+      "nombre_real": "Bruce Banner",
+      "nombre_heroe": "Hulk",
+      "ano_primera_aparicion": 1962,
+      "gender": "Masculino",
+      "superpoderes": "Telepatía"
+    },
+    {
+      "id": "725f",
+      "nombre_real": "Steve Rogers",
+      "nombre_heroe": "Captain America",
+      "ano_primera_aparicion": 1941,
+      "gender": "Masculino",
+      "superpoderes": "Telepatía"
+    },
+    {
+      "id": "d47c",
+      "nombre_real": "Thor Odinson",
+      "nombre_heroe": "Thor",
+      "ano_primera_aparicion": 1962,
+      "gender": "Masculino",
+      "superpoderes": "Super velocidad"
+    },
+    {
+      "id": "2c7f",
+      "nombre_real": "Barry Allen",
+      "nombre_heroe": "The Flash",
+      "ano_primera_aparicion": 1956,
+      "gender": "Masculino",
+      "superpoderes": "Invisibilidad"
+    },
+    {
+      "id": "a5ac",
+      "nombre_real": "T'Challa",
+      "nombre_heroe": "Black Panther",
+      "ano_primera_aparicion": 1966,
+      "gender": "Masculino",
+      "superpoderes": "Control del tiempo"
+    },
+    {
+      "id": "8229",
+      "nombre_real": "Stephen Strang",
+      "nombre_heroe": "Doctor Strange",
+      "ano_primera_aparicion": 1963,
+      "gender": "Masculino",
+      "superpoderes": "Manipulación elemental"
+    },
+    {
+      "id": "f12d",
+      "nombre_real": "Logan ",
+      "nombre_heroe": "Wolverine",
+      "ano_primera_aparicion": 1974,
+      "gender": "Masculino",
+      "superpoderes": "Control del tiempo"
+    },
+    {
+      "id": "804b",
+      "nombre_real": "Hal Jordan",
+      "nombre_heroe": "Green Lantern",
+      "ano_primera_aparicion": 1959,
+      "gender": "Masculino",
+      "superpoderes": "Vuelo"
+    },
+    {
+      "id": "6303",
+      "nombre_real": "Carol Danvers",
+      "nombre_heroe": "Captain Marvel",
+      "ano_primera_aparicion": 1968,
+      "gender": "Femenino",
+      "superpoderes": "Invulnerabilidad"
+    },
+    {
+      "id": "d18e",
+      "nombre_real": "Arthur Curry",
+      "nombre_heroe": "Aquaman",
+      "ano_primera_aparicion": 1941,
+      "gender": "Masculino",
+      "superpoderes": "Super velocidad"
+    },
+    {
+      "id": "727b",
+      "nombre_real": "Natasha Romanoff",
+      "nombre_heroe": "Black Widow",
+      "ano_primera_aparicion": 1964,
+      "gender": "Femenino",
+      "superpoderes": "Super velocidad"
+    },
+    {
+      "id": "a1f4",
+      "nombre_real": "Wade Wilson",
+      "nombre_heroe": "Deadpool",
+      "ano_primera_aparicion": 1991,
+      "gender": "Masculino",
+      "superpoderes": "Super velocidad"
+    },
+    {
+      "id": "586d",
+      "nombre_real": "Oliver Queen",
+      "nombre_heroe": "Green Arrow",
+      "ano_primera_aparicion": 1941,
+      "gender": "Masculino",
+      "superpoderes": "Super velocidad"
+    },
+    {
+      "id": "b32c",
+      "nombre_real": "Kara Zor-El",
+      "nombre_heroe": "Supergirl",
+      "ano_primera_aparicion": 1959,
+      "gender": "Femenino",
+      "superpoderes": "Vuelo"
+    },
+    {
+      "id": "8d41",
+      "nombre_real": "Scott Lang",
+      "nombre_heroe": "Ant-Man",
+      "ano_primera_aparicion": 1979,
+      "gender": "Masculino",
+      "superpoderes": "Regeneración rápida"
+    },
+    {
+      "id": "e609",
+      "nombre_real": "Jennifer Walters",
+      "nombre_heroe": "She-Hulk",
+      "ano_primera_aparicion": 1980,
+      "gender": "Femenino",
+      "superpoderes": "Regeneración rápida"
+    },
+    {
+      "id": "f7e4",
+      "nombre_real": "Frank Castle",
+      "nombre_heroe": "The Punisher",
+      "ano_primera_aparicion": 1974,
+      "gender": "Masculino",
+      "superpoderes": "Invulnerabilidad"
+    },
+    {
+      "id": "91f6",
+      "nombre_real": "Jonathan Osterman",
+      "nombre_heroe": "Doctor Manhattan",
+      "ano_primera_aparicion": 1986,
+      "gender": "Masculino",
+      "superpoderes": "Regeneración rápida"
+    },
+    {
+      "id": "60b9",
+      "nombre_real": "Ororo Munroe",
+      "nombre_heroe": "Storm",
+      "ano_primera_aparicion": 1975,
+      "gender": "Femenino",
+      "superpoderes": "Invulnerabilidad"
+    },
+    {
+      "id": "a0de",
+      "nombre_real": "Matt Murdock",
+      "nombre_heroe": "Daredevil",
+      "ano_primera_aparicion": 1964,
+      "gender": "Masculino",
+      "superpoderes": "Super velocidad"
+    },
+    {
+      "id": "ab87",
+      "nombre_real": "Ben Grimm",
+      "nombre_heroe": "The Thing",
+      "ano_primera_aparicion": 1961,
+      "gender": "Masculino",
+      "superpoderes": "Fuerza sobrehumana"
+    },
+    {
+      "id": "f58d",
+      "nombre_real": "Anna Marie",
+      "nombre_heroe": "Rogue",
+      "ano_primera_aparicion": 1981,
+      "gender": "Femenino",
+      "superpoderes": "Super velocidad"
+    },
+    {
+      "id": "3e26",
+      "nombre_real": "Clint Barton",
+      "nombre_heroe": "Hawkeye",
+      "ano_primera_aparicion": 1964,
+      "gender": "Masculino",
+      "superpoderes": "Invulnerabilidad"
+    },
+    {
+      "id": "56ce",
+      "nombre_real": "Billy Batson",
+      "nombre_heroe": "Shazam",
+      "ano_primera_aparicion": 1939,
+      "gender": "Masculino",
+      "superpoderes": "Telequinesis"
+    },
+    {
+      "id": "286d",
+      "nombre_real": "Kal-el",
+      "nombre_heroe": "Superman",
+      "ano_primera_aparicion": 1935,
+      "gender": "Masculino",
+      "superpoderes": "Fuerza sobrehumana"
+    }
+  ]
+}

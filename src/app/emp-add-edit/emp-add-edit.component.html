@@ -1,0 +1,59 @@
+<div mat-dialog-title>
+    <h1>Superheroes</h1> <!-- Título del diálogo -->
+  </div>
+  
+  <form [formGroup]="empForm" (ngSubmit)="onFormSubmit()"> <!-- Formulario con el uso de formGroup para el manejo de formularios reactivos y ngSubmit para manejar el evento de envío del formulario -->
+    <div mat-dialog-content class="content"> <!-- Contenido del diálogo -->
+      <div class="row"> <!-- Fila 1 -->
+        <div class="field">
+          <mat-form-field appearance="outline">
+            <mat-label>Nombre_real</mat-label> <!-- Etiqueta para el campo de entrada -->
+            <input matInput type="text" placeholder="Nombre_real" formControlName="nombre_real"> <!-- Campo de entrada para el nombre real del superhéroe -->
+          </mat-form-field>
+        </div>
+        <div class="field">
+          <mat-form-field appearance="outline">
+            <mat-label>Nombre_heroe</mat-label> <!-- Etiqueta para el campo de entrada -->
+            <input matInput placeholder="nombre_heroe" formControlName="nombre_heroe"> <!-- Campo de entrada para el nombre del superhéroe -->
+          </mat-form-field>
+        </div>
+      </div>
+  
+      <div class="row"> <!-- Fila 2 -->
+        <div class="field">
+          <mat-form-field appearance="outline">
+            <mat-label>Año_primera_aparicion</mat-label> <!-- Etiqueta para el campo de entrada -->
+            <input matInput formControlName="ano_primera_aparicion" placeholder="YYYY" type="number" min="1900" max="2100"> <!-- Campo de entrada para el año de primera aparición del superhéroe -->
+          </mat-form-field>
+        </div>
+      </div>
+  
+      <div class="row"> <!-- Fila 3 -->
+        <div class="field">
+          <mat-radio-group aria-label="Select an option" formControlName="gender"> <!-- Grupo de botones de radio para seleccionar el género del superhéroe -->
+            <mat-label><b>Género</b></mat-label> <!-- Etiqueta para el grupo de botones de radio -->
+            <mat-radio-button value="Masculino">Masculino</mat-radio-button> <!-- Opción para seleccionar el género masculino -->
+            <mat-radio-button value="Femenino">Femenino</mat-radio-button> <!-- Opción para seleccionar el género femenino -->
+            <mat-radio-button value="Otros">Otros</mat-radio-button> <!-- Opción para seleccionar otro género -->
+          </mat-radio-group>
+        </div>
+      </div>
+  
+      <div class="row"> <!-- Fila 4 -->
+        <div class="field">
+          <mat-form-field appearance="outline">
+            <mat-label>Superpoderes</mat-label> <!-- Etiqueta para el campo de selección -->
+            <mat-select formControlName="superpoderes"> <!-- Campo de selección para los superpoderes del superhéroe -->
+              <mat-option *ngFor="let val of superpoderes" [value]="val">{{val}}</mat-option> <!-- Opciones para seleccionar los superpoderes -->
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+    </div>
+  
+    <div mat-dialog-actions class="action"> <!-- Acciones del diálogo -->
+      <button mat-raised-button type="button" [mat-dialog-close]="false">Cancelar</button> <!-- Botón para cancelar el diálogo -->
+      <button mat-raised-button color="primary" type="submit">{{data ? 'Modificar': 'Registrar'}}</button> <!-- Botón para enviar el formulario, el texto del botón depende de si hay datos para modificar o no -->
+    </div>
+  </form>
+  

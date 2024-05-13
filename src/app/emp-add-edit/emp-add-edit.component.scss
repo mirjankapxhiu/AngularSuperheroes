@@ -1,0 +1,38 @@
+.content {
+  padding-top: 10px; /* Agrega espacio superior al contenido */
+}
+
+.row {
+  display: flex; /* Establece el diseño de fila como flexbox */
+  gap: 10px; /* Agrega espacio entre los elementos hijos */
+
+  mat-form-field {
+    width: 100%; /* Establece el ancho de los campos de formulario dentro de la fila al 100% */
+  }
+}
+
+.action {
+  padding: 0px 25px 20px; /* Añade relleno en la parte superior y lateral de las acciones */
+  
+  button {
+    flex: 1; /* Hace que los botones ocupen todo el espacio disponible horizontalmente */
+  }
+}
+
+.content {
+  display: flex; /* Establece el diseño de columna como flexbox */
+  flex-direction: column; /* Ajusta la dirección de la columna */
+}
+
+.row {
+  margin-bottom: 10px; /* Agrega margen inferior a las filas */
+}
+
+.field {
+  width: 100%; /* Establece el ancho de los campos al 100% */
+}
+
+.action {
+  justify-content: flex-end; /* Alinea las acciones al final del contenedor */
+  padding-top: 10px; /* Agrega espacio superior a las acciones */
+}
