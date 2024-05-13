@@ -5,6 +5,8 @@
 
 ## Instala las Dependencias
 * npm install
+* ng add @angular/material
+
 
 
 ## Servidor de Desarrollo
